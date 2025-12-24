@@ -20,6 +20,20 @@ const App = () => {
     setPassword(pass)
   }, [length, numberAllowed, charAllowed, setPassword])
 
+  /*
+  let learnCB = useCallback(fn(){
+      setPassword("newPass@321")
+  }, [setPassword])  
+
+  let a , b, c
+  let ans = a+b *c
+  ans *= c
+  
+  useEffect(fn(){
+       setPassword("newPass@321")
+  }, [setPassword])
+  */
+
   const copyPasswordToClipBoard = useCallback(() => {
     passwordRef.current?.select()
     window.navigator.clipboard.writeText(password)
