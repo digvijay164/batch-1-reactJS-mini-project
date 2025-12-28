@@ -1,6 +1,6 @@
 // const { useEffect } = require("react")
 import React, { useEffect, useState } from "react";
-
+                        // iqd
 function useCurrencyInfo(currency){
     const [data, setData] = useState({})
     useEffect(()=>{
