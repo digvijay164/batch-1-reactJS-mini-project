@@ -12,7 +12,7 @@ let cardContent = [
   {
     content: "Complete the Project & Deploy it on Vercel, Once everything gets done share the project link to the instructor",
     containerClassName: "bg-green-600 h-40 w-50 p-[10px] rounded-md hover:bg-green-700 text-gray-400 hover:text-white",
-    contentClassName: "text-[10px]"
+    contentClassName: "text-[15px]"
   },
   {
     content: "Complete the Project & Deploy it on Vercel, Once everything gets done share the project link to the instructor",
