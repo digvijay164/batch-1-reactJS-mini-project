@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import { motion } from "motion/react";
 function Navigation() {
     return (
         <ul className="nav-ul">
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between py-2 sm:p-6">
                     <a className="text-xl font-bold transition-colors text-neutral-400 hover:text-white" href="/">Digvijay Desai</a>
                     <button
-                        className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hiden"
+                        className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
                         onClick={() => setOpen(!isOpen)}
                     >
                         <img
@@ -36,7 +36,7 @@ const Navbar = () => {
                             className="w-6 h-6"
                         />
                     </button>
-                    <div className="hiden sm:flex">
+                    <div className="hidden sm:flex">
                         <Navigation />
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
 
             {isOpen && (
                 <motion.div
-                    className="block overflow-hidden text-center sm:hiden"
+                    className="block overflow-hidden text-center sm:hidden"
                     initial={{
                         opacity: 0,
                         x: -10
