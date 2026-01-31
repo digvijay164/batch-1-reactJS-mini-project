@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
             <div className="mx-auto c-space  max-w-7xl">
                 <div className="flex items-center justify-between py-2 sm:p-6">
-                    <a className="text-xl font-bold transition-colors text-neutral-400 hover:text-white" href="/">Digvijay Desai</a>
+                    <a className="text-xl font-bold transition-colors text-neutral-400 hover:text-white" href="/">Digvijay</a>
                     <button
                         className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
                         onClick={() => setOpen(!isOpen)}
